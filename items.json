@@ -1,0 +1,198 @@
+{
+    "items":{
+        "Archangel's Staff":{
+            "stats":"+10% Ability Power +15 Starting Mana",
+            "description":"Each time the wearer casts their ability, they gain spell power equal to 35% maximum mana.",
+            "shadow-description":"Each time the holder casts their ability, they gain empty maximum Health equal to 300% of their maximum Mana. The holder then heals for that amount."
+        },
+        "Bloodthirster":{
+            "stats":"+10 Attack Damage +20 Magic Resist",
+            "description":"Basic attacks heal for 40% of the damage dealt. Gains a 30% maximum health shield for 5 seconds if the wearer falls below 40% maximum health.",
+            "shadow-description":"Physical damage heals the holder for 40% of the damage dealt. Each time the holder heals to 90% Health, they gain 30% Attack Speed for 3 seconds (does not stack). The holders takes 33% of their maximum Health as true damage at the beginning of combat."
+        },
+        "Bramble Vest":{
+            "stats":"+40 Armor",
+            "description":"Negates bonus damage from critical strikes on the wearer. When the wearer is hit by a basic attack, deals 80/100/150 (depending on Star level) magic damage to all nearby enemies (2.5 second cooldown).",
+            "shadow-description":"Reduces incoming physical damage by 50%."
+        },
+        "Quicksilver":{
+            "stats":"+20 Magic Resist +15% Critical Strike Chance",
+            "description":"The wearer is immune to crowd control for the first 10 seconds of combat. (Unique: only one per champion)",
+            "shadow-description":"The wearer is immune to crowd control, but has 20% less max health."
+        },
+        "Blue Buff":{
+            "stats":"+30 Starting Mana",
+            "description":"After each spellcast, the wearer's mana is set to 20. (Unique: only one per champion)",
+            "shadow-description":"After casting their spell, the wearer's Mana is set to 15. If the wearer has less than 60% health, this is increased to 50. (Unique: only one per champion)"
+        },
+        "Chalice of Power":{
+            "stats":"+20 Magic Resist +15 Starting Mana",
+            "description":"At the start of combat, the wearer and all allies within 1 hex in the same row to the left and right gain 25 ability power for the rest of combat.",
+            "shadow-description":"When combat begins, all allies within 1 hex in the same row gain 40 Spell Power for the rest of combat. The wearer loses 20 Spell Power."
+        },
+        "Deathblade":{
+            "stats":"+20 Attack Damage",
+            "description":"Each time the holder casts their ability, they gain empty maximum Health equal to 300% of their maximum Mana. The holder then heals for that amount.",
+            "shadow-description":"Contributing to a kill grants +15 Attack Damage for the remainder of combat. This effect can stack any number of times (starting at 3 stacks). The wearer receives a penalty of -20% max health."
+        },
+        "Shroud of Stillness":{
+            "stats":"+20 Armor +15% Dodge Chance",
+            "description":"When combat begins, shoots a beam straight ahead and behind in a 1.5-hex line that delays affected allies (excluding the wearer) and enemies' first spellcast, increasing their maximum mana by 65% until they cast. [Unique - Only One Per Champion]",
+            "shadow-description":"When combat begins, shoots a beam straight ahead in a 1.5-hex line that delays affected enemies' first spellcast, increasing their maximum mana by 35% until they cast. [Unique - Only One Per Champion]"
+        },
+        "Dragon's Claw":{
+            "stats":"+250 Magic Resist",
+            "description":"-",
+            "shadow-description":"Reduces incoming magic damage by 15%. Negates bonus damage from Critical strike icon.png critical hits."
+        },
+        "Sunfire Cape":{
+            "stats":"+200 Health +25 Armor",
+            "description":"At start of combat, and every 2.5 seconds thereafter, applies a 10-second burn to a random enemy within 2 hexes, dealing 2.5% of target's maximum health true damage each second and applying Grievous Wounds for the duration, reducing healing on the target. (Unique)",
+            "shadow-description":"Every 1.5 seconds, a random enemy within 3 hexes is burned for 25% of their maximum Health over 10 seconds. Any healing they receive is reduced by 50%. The wearer is also burned for 4% of their maximum Health every second. (Unique)"
+
+        },
+        "Giant Slayer":{
+            "stats":"+10 Attack Damage +10% Attack Speed",
+            "description":"The holder's Abilities and attacks do 10% bonus damage. If the target has more than 1750 maximum Health, the bonus increases to 70%.",
+            "shadow-description":"The holders abilities and attacks do 45% bonus damage. If the target has less than 1100 maximum Health, the holder's Abilities and attacks do 15% decreased damage instead."
+        },
+        "Guardian Angel":{
+            "stats":"+10 Attack Damage +20 Armor",
+            "description":"Prevents the wearer's first death, placing them in stasis instead. After 2 seconds, they return with 400 Health and shed all negative effects.",
+            "shadow-description":"Prevents the holder's first death, placing them in stasis instead. After 2 seconds, they return with 80% Health and shed all negative effects. After this effect trigger's, the holder's Attack Speed is reduced by 50% for the rest of combat."
+        },
+        "Last Whisper":{
+            "stats":"+10% Attack Speed +15% Crit Chance",
+            "description":"Critical strike hits reduce the target's armor by 70% for 5 seconds. This effect does not stack. [Unique - Only One Per Champion]",
+            "shadow-description":"When the holder inflicts a critical hit, the target's Armor and Magic Resist are reduced by 50% for 2 seconds. The holder's Armor and Magic Resist are also permanently reduced by 50%."
+        },
+        "Force of Nature":{
+            "stats":"-",
+            "description":"Wearer's team gains +2 maximum team size but the player's Little Legends takes 100% extra damage.",
+            "shadow-description":"Gain +1 maximum team size."
+        },
+        "Frozen Heart":{
+            "stats":"+20 Armor +15 Mana",
+            "description":"Reduces the Attack Speed of enemies within 2 Hexes by 35%. [Unique - Only One Per Champion]",
+            "shadow-description":"Reduces the Attack Speed of all enemies within 2 hexes by 50%. Each Frozen Heart a champion carries beyond the first increases the radius of this effect. The Attack Speed of allies (except the wearer) within 1 hex is reduced by 50%."
+        },
+        "Gargoyle Stoneplate":{
+            "stats":"+20 Armor +20 Magic Resist",
+            "description":"The holder gains 18 bonus armor and bonus magic resistance for each enemy targeting them.",
+            "shadow-description":"Every 2 seconds, the wearer heals themselves for 45 Health for each unit targeting them."
+        },
+        "Guinsoo's Rageblade":{
+            "stats":"+10% Ability Power +10% Attack Speed",
+            "description":"Basic attacks grant 6% bonus attack speed for the rest of combat. Stacks with no upper limit.",
+            "shadow-description":"Attacks grant +8% bonus Attack Speed for the rest of combat. The bonus Attack Speed can stack any number of times. The holder is dealt 3% of their maximum Health as true damage each attack."
+        },
+        "Hand of Justice":{
+            "stats":"+10 Starting Mana +15% Crit Chance",
+            "description":"At the start of each round, randomly gains one of the following buffs: Grants 40 bonus attack damage and 40 spell power, or Basic attacks and abilities heal for 40% of the damage dealt.",
+            "shadow-description":"The holder begins combat with two buffs: +40 Attack Damage and +40 Spell Power; Basic Attacks and Spells heal for 40% of damage dealt After each takedown, if the holder has these buffs, they lose them; if they do not, they get both buffs again."
+        },
+        "Hextech Gunblade":{
+            "stats":"+10 Attack Damage +10% Spell Power",
+            "description":"Abilities heal for 33% of the damage dealt. Excess healing with this item is converted into a shield up to 300 health.",
+            "shadow-description":"The holder's magic and true damage from Abilities heals the nearest ally with missing Health for 60% of the damage dealt. This heal cannot affect the holder."
+        },
+        "Infinity Edge":{
+            "stats":"+10 Attack Damage +75% Critical Strike Chance",
+            "description":"Converts every 1% excess critical strike chance into 1% bonus critical strike damage.",
+            "shadow-description":"Grants +75% Critical Strike Chance (including components). Each point of Critical Strike Chance above 100% becomes +1% Critical Strike Damage. The holder also gains 30% Critical Strike Damage. Each time the holder critically strikes, they deal 3% of their maximum Health to themselves as true damage. [Unique - Only one per champion]"
+        },
+        "Ionic Spark":{
+            "stats":"+10% Ability Power +20 Magic Resist",
+            "description":"Enemies within 2 hexes have their magic resistance reduced by 40% (does not stack). Additionally, when enemies within 2 hexes cast their Special Ability, they are dealt 200% of their maximum mana as magic damage.",
+            "shadow-description":"Enemies and allies within 2 hexes are zapped when they cast an ability, taking magic damage scaling with their max Mana. Enemies take 200% of their max mana, and allies take 100% of their max mana. Whenever an ally or enemy is zapped, the wearer gains 5 Ability Power for the rest of combat."
+        },
+        "Jeweled Gauntlet":{
+            "stats":"+10% Ability Powe +15% Critical Strike Chance",
+            "description":"The wearer's Special Ability can critically strike. Additionally, grants 40% bonus critical strike damage.",
+            "shadow-description":"The holder's spells can inflict critical hits. Gain 40% Critical Strike Damage and 20% Critical Strike Chance, but when the wearer casts they lose 15% of the maximum Health."
+        },
+        "Locket of the Iron Solari":{
+            "stats":"+10% Ability Power +20 Armor",
+            "description":"At the start of combat, the wearer and all allies within 2 hexes in the same row to the left and right gain a 300 / 350 / 400 (based on Star level) health shield for 8 seconds.",
+            "shadow-description":"The holder and all allies within 2 hexes in the same row take 25% reduced damage. but gain 5 less Mana per attack."
+        },
+        "Morellonomicon":{
+            "stats":"+10% Ability Power +150 Health",
+            "description":"Dealing magic damage with a spell applies a burn on the enemies hit for 10 seconds, dealing 2.5% of target's maximum health true damage each second and applying Grievous Wounds for the duration, reducing healing on the target. (Unique - Only 1 Per Champion)",
+            "shadow-description":"When the holder deals magic damage with their spell, the spell deals 50% less damage but they burn the target, dealing 100% of the target's maximum Health as true damage over 25 seconds, and reducing healing by 50% for the duration of the burn. (Unique - Only 1 Per Champion)"
+        },
+        "Rabadon's Deathcap":{
+            "stats":"+70% Ability Power",
+            "description":"-",
+            "shadow-description":"The holder gains 125% additional Ability Power. The holder receives a penalty of -20% Max Health."
+        },
+        "Rapid Firecannon":{
+            "stats":"+40% Attack Speed",
+            "description":"Increases the wearer's attack range by 1 hex, and basic attacks cannot miss.",
+            "shadow-description":"Increases the holder's Attack Range by 1 hex. Additionally, the holder gains +40% bonus Attack Speed when there are no enemies within 2 hex. The holder's attacks can no longer miss."
+        },
+        "Redemption":{
+            "stats":"+150 Health +15 Starting Mana",
+            "description":"Every 5 seconds, the wearer radiates an aura to allies within 1 hex, healing them for 25% missing health. Affected allies take 30% reduced damage from multi-target abilities and basic attacks for 5 seconds.",
+            "shadow-description":"The holder radiates an aura to all allies on the board except themself, and heals them for 15% of their missing Health every 5 seconds. Each time this happens, the holder damages themselves for 10% of their current Health as true damage."
+        },
+        "Runaan's Hurricane":{
+            "stats":"+20 Magic Resist +10% Attack Speed",
+            "description":"Basic attacks fire an additional bolt at another nearby enemy, dealing 75% AD physical damage and applying on-hit effects. Bolts can critically strike and have infinite range.",
+            "shadow-description":"The holder's attacks fire bolts at 2 nearby enemies, dealing 60% of the holder's Attack Damage. These bolts can critically strike but do not apply on-hit effects."
+        },
+        "Spear of Shojin":{
+            "stats":"+10 Attack Damage +15 Starting Mana",
+            "description":"Basic attacks restore an additional 8 mana on-attack.",
+            "shadow-description":"The wearer's attacks restore 14 additional Mana. The wearer deals 20% less damage."
+        },
+        "Statikk Shiv":{
+            "stats":"+10% Attack Speed +15 Starting Mana",
+            "description":"Every third basic attack from the wearer deals 70 magic damage to the target and 3 additional targets, while also reducing their magic resistance by 70% for 5 seconds.",
+            "shadow-description":"Every other attack from the holder unleashes a chain lightning that strikes 4 enemy, dealing 55 magic damage and reducing their Magic Resist by 70% for 5 seconds. The holder receives -50% Attack Damage."
+        },
+        "Thief's Gloves":{
+            "stats":"+15% Crit Chance +15% Dodge Chance",
+            "description":"At the beginning of each round, the wearer equips 2 random items that are removed at the end of the round. The quality of these items are based on player level. Cannot be equipped to a champion that already holds another item, nor can the item holder be equipped with any additional items. [Unique - Only One Per Champion]",
+            "shadow-description":"Consumes 3 Item Slots At the beginning of each planning phase, the wearer equips 2 temporary items. These Items are always full shadow items."
+        },
+        "Titan's Resolve":{
+            "stats":"+10% Attack Speed +20 Armor",
+            "description":"When the wearer takes damage from any source or inflicts a critical hit, grants 3 bonus attack damage and 3 spell power for the rest of combat, stacking up 25 times for a maximum of 75. At maximum stacks, additionally gains 25 bonus armor and bonus magic resistance, and increases in size. Resets every round.",
+            "shadow-description":"Every 4 seconds, the holder's next attack deals 40% of the total damage they have taken since the last empowered attack as true damage."
+        },
+        "Trap Claw":{
+            "stats":"+150 Health +15% Dodge Chance",
+            "description":"At the beginning of each round, gains a spell shield that blocks the first enemy spell that hit. The enemy that breaks the shield is stunned for 4 seconds. [Unique - Only One Per Champion]",
+            "shadow-description":"Blocks the first enemy spell that hits the wearer, then teleports them to the spell's caster, and causes both units to start targeting each other. They deal 20% increased damage to each other."
+        },
+        "Zephyr":{
+            "stats":"+150 Health +20 Magic Resist",
+            "description":"At the start of combat, banishes for 5 seconds the unit that mirrors the wielder's placement on the other side of the board. Pierces through CC immunity effects. [Unique - Only One Per Champion]",
+            "shadow-description":"When combat begins, the wearer summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for 5 seconds. Ignores CC immunity. [Unique - Only One Per Champion]"
+        },
+        "Zz'Rot Portal":{
+            "stats":"+150 Health +10% Attack Speed",
+            "description":"When the holder dies, a Construct with 500 Health arises to continue the fight. When it dies it deals 777 true damage to enemies within 1 hex(es).",
+            "shadow-description":"At the start of combat, the wearer taunts all nearby enemies for 1 second. Additionally, when the wearer dies, a Construct with 1500/2250/3000 health (depending on Star level), arises to continue the fight. Constructs also gain 0−200 bonus armor and magic resistance (depending on the construct's stage)"
+        },
+        "Warmog's Armor":{
+            "stats":"+1000 Health",
+            "description":"-",
+            "shadow-description":"Grants 1500 bonus health, but the wearer loses 100 Health each second."
+        },
+        "Zeke's Herald":{
+            "stats":"+150 Health +20 Magic Resist",
+            "description":"At the start of combat, banishes for 5 seconds the unit that mirrors the wielder's placement on the other side of the board. Pierces through CC immunity effects. [Unique - Only One Per Champion]",
+            "shadow-description":"When combat begins, the holder reduces the Attack Speed of all allies within 1 hexes in the same row by -25% Attack Speed. The holder then gains +40% Attack Speed for each affected ally."
+        }
+
+
+    },
+    "spatula-items":{
+
+    },
+    "shadowspatula-items":{
+
+    }
+}
